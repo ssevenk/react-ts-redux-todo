@@ -4,7 +4,7 @@ export interface TodoItem {
   completed: boolean
 }
 
-interface DataState {
+export interface DataState {
   todoList: TodoItem[]
   kind: 'all' | 'completed' | 'incompleted'
 }

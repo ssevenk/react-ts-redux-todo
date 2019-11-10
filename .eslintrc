@@ -9,7 +9,8 @@
     "plugins": [
         "react-hooks",
         "@typescript-eslint",
-        "prettier"
+        "prettier",
+        "emotion"
     ],
     "globals": {
       "context": "readonly",
@@ -195,6 +196,10 @@
         "yield-star-spacing": [2, "both"],
         "yoda": [2, "never"],
         "prefer-const": 2,
-        "array-bracket-spacing": [2, "never"]
+        "array-bracket-spacing": [2, "never"],
+        "emotion/jsx-import": "error",
+        "emotion/no-vanilla": "error",
+        "emotion/import-from-emotion": "error",
+        "emotion/styled-import": "error"
     }
 }

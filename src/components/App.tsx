@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 import { State } from '../store/index'
 import reducer from '../store/reducer'
 import Layout from './Layout'
-import './App.css'
+import '../reset.scss'
 
 const initStore: State = {
   todoList: [
